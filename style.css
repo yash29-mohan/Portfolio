@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgba(180, 175, 175, 0.377);
+    width: 400px;
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(34, 32, 32)
+    
+}
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(119, 0, 255); */
+    height: 70vh;
+    width: 74vw;
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 70vh;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 55px;
+    
+}
+
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.about{
+    font-size: 45px;
+}
+
+.description{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 22px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: darkslateblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: whitesmoke;
+    color: darkslateblue;
+}
+
+
+.achieveContainer h3{
+    padding-bottom: 25px;
+}
+
+.achieveContainer h1{
+    text-align: center;
+}
+
+.achItem h2{
+    margin: 5px;   
+}
+
+.achItem p{
+    padding-bottom: 25px;
+
+}
+#trophy{
+    height: 35px;
+}
+
+
+.contactForm{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 30px 150px;
+}
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 10px;
+    text-align: center;
+}
+
+.contactForm div{
+    padding: 10px 0; 
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: cornflowerblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+    
+}
+
+/* #isclient{
+    align-self: start;
+} */
+
+.contactForm form div input{
+    width: 20vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 4px;
+}
+
+.mb-3{
+    display: flex;
+    flex-direction: column;
+
+}
+.submit{
+    margin-top: 22px;
+}
+.submit{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: darkslateblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: whitesmoke;
+    color: darkslateblue;
+}
